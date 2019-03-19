@@ -2,9 +2,7 @@ Caesar Cypher
 
 MAIN FUNCTIONS:
 
-encrypt.m - Takes a string 'str' and a number from 1-26 'k' as inputs, outputs an encrypted string. This function encrypts the inputted string
-	    in the same way Julius Caesar used to encrypt messages, by shifting every letter in the string k ahead in the alphabet. Obviously 
-	    this is not a very effective way of encrypting messages nowadays.
+encrypt.m - Takes a string 'str' and a number from 1-26 'k' as inputs, outputs an encrypted string. This function encrypts the inputted 	    string in the same way Julius Caesar used to encrypt messages, by shifting every letter in the string k ahead in the alphabet. 	       Obviously this is not a very effective way of encrypting messages nowadays.
 
 attack.m - Takes an encrypted string 'str' as input and decrypts it back to its original message.
 
