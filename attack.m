@@ -4,6 +4,7 @@ function [msg, k] = attack(str)
 
 scorevec = zeros(1, 25);
 
+
 for i = 1:25
     scorevec(1, i) = score(i, str);
 end
